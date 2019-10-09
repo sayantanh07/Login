@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles" type="text/css/html" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="http://127.0.0.1:3125/action"></script>
+    <!-- <script type="text/javascript" src="http://192.168.0.105:3125/ajax_calls"></script> -->
+    <base href="/" />
+    <title>Login Master</title>
+  </head>
+
+  <body>
+    <div id="login">
+      <form>
+        <input
+          type="text"
+          id="validate"
+          required
+          placeholder="Enter Username"
+          required
+        />
+        <input
+          type="pasword"
+          id="password"
+          required
+          placeholder="Enter password"
+          required
+        />
+
+        <button id="signupbutton" class="button">
+          <span>Adduser </span>
+        </button>
+      </form>
+
+      <button id="loginuser" class="button">
+        <span>Login</span>
+      </button>
+    </div>
+    <!-- Add User -->
+    <div id="signup">
+      <input type="text" id="username" required placeholder="Enter Username" />
+      <input
+        type="pasword"
+        id="password"
+        required=""
+        placeholder="Enter password"
+      />
+      <button id="save" class="button">
+        <span>Save User</span>
+      </button>
+    </div>
+
+    <div id="addbookdiv">
+      <input type="text" id="addbooks" required placeholder="Add Books" />
+      <button id="booksave" class="button">
+        <span>Book Save</span>
+      </button>
+    </div>
+  </body>
+</html>
